@@ -13,7 +13,7 @@ print("Performing ping test")
 print("-" * 20 + "\n")
 
 for host in clients:
-	ping = subprocess.run(["ping" + " -c 1 -t 2 " + str(host)], shell=True, 
+	ping = subprocess.run(["ping" + " -c 3 -t 2 " + str(host)], shell=True, 
 		stdout=subprocess.DEVNULL)
 	returncode = ping.returncode
 		
