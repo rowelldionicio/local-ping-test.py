@@ -1,3 +1,6 @@
+# To run the script, enter:
+# python3 local_ping_test.py clientlist.txt
+
 import subprocess
 from sys import argv
 
